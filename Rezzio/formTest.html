@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="lib/jquery-3.3.1.min.js" type="text/javascript" rel="script"></script>
+    <title></title>
+
+  </head>
+  <body>
+
+  <form id="test-form">
+
+    <div>
+      <label>Field 1</label>
+      <input type="text" name="a-1" placeholder="Field 1"/>
+    </div>
+
+    <div>
+      <label>Field 2</label>
+      <input type="text" name="a-2" placeholder="Field 2"/>
+    </div>
+
+    <div>
+      <label>Field 3</label>
+      <input type="text" name="a-3" placeholder="Field 3"/>
+    </div>
+
+    <div>
+      <label>Field 4</label>
+      <input type="text" name="a-4" placeholder="Field 4"/>
+    </div>
+
+    <div>
+      <button type="submit"id="submit-form">Submit</button>
+    </div>
+
+  </form>
+
+
+  </body>
+  <script >
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzs3kQTc-8rS9C-a_bzvKKsHbX-m7TvEzVIU3jXy6DIAMQYaZc/exec'
+  const form = document.forms['test-form']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    console.log(e);
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response, form))
+      .catch(error => console.error('Error!', error.message))
+  })
+
+
+  </script>
+</html>
