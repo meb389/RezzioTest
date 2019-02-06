@@ -7,10 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="http://example.com/favicon.png">
   <title>REZZIO</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha256-9mbkOfVho3ZPXfM7W8sV2SndrGDuh7wuyLjtsWeTI1Q=" crossorigin="anonymous" />    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI=" crossorigin="anonymous"></script>
+  <script src="lib/jquery-3.3.1.min.js" type="text/javascript" rel="script"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha256-9mbkOfVho3ZPXfM7W8sV2SndrGDuh7wuyLjtsWeTI1Q=" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/main.css" type="text/css">
   <link rel="stylesheet" href="assets/css/question_set_one.css" type="text/css">
-  <script src="lib/jquery-3.3.1.min.js" type="text/javascript" rel="script"></script>
   <!-- Start of Async Drift Code -->
   <script>
       "use strict";
@@ -67,19 +68,25 @@
   <div class="ui eight column centered grid">
     <form class="ui form">
       <div class="field">
-        <label>HAVE YOU TAKEN STEPS TO FORMALIZE YOUR CAREER?</label>
-        <textarea></textarea>
+        <label>HAVE YOU TAKEN SPECIFIC STEPS TOWARDS PREPARING FOR YOUR CAREER?</label>
+        <button class="ui secondary button" type="button" name="yes-button">Yes</button>
+        <button class="ui secondary button" type="button" name="no-button">no</button>
+      </div>
+      <div class="row">
+        <p>WHICH OF THE FOLLOWING HAVE YOU STARTED?</p>
+        <div class="ui dropdown">
+          <div class="text"></div>
+          <i class="dropdown icon"></i>
+        </div>
       </div>
       <div class="field">
-        <label>HOW SUPPORTIVE IS YOUR FAMILY IN REGARD TO YOUR CAREER PATH?</label>
-        <textarea></textarea>
-      </div>
-      <div class="field">
-        <label>HOW HAVE YOU FAILED IN THE PAST AND HOW DID YOU OVERCOME THAT FAILURE?</label>
-        <textarea></textarea>
+        <label>LIST THE TOP THREE SKILLS YOU BELIEVE YOU REQUIRE TO BE SUCCESSFUL</label>
+        <input type=text name="top-three-skills">
       </div>
       <button class="ui primary button next">
-          <a href="career_awareness.html">NEXT</a>
+          <a href="mentorship_a.html">NEXT</a>
       </button>
+
+      <script type="text/javascript" rel="script" src="assets/js/main.js"></script>
   </body>
 </html>
