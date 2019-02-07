@@ -62,54 +62,73 @@
 
 <div class="ui container center">
   <h2>
-    INTERNSHIPS
+    INVOLVEMENT
   </h2>
   <div class="ui eight column centered grid">
     <form class="ui form">
       <!-- Question one -->
       <div class="field">
-        <label>WHAT IS YOUR PROFESSION OF CHOICE?</label>
-        <input type="text">
-      </div>
-      <!-- Question two -->
-      <div class="field">
-        <p><span class="multiple-select">IT IS IMPORTANT TO BE OPEN TO DIVERSITY IN ORDER TO SUCCEED AS AN INDIVIDUAL AND PROFESSIONALY</span></p>
-          <!-- Passion, Monetery Value, Familial Obligation, Familial Motivation, Other -->
-        <div class="ui equal width center aligned padded grid selection">
-          <div class="ui dropdown">
-            <div class="text"></div>
-            <i class="dropdown icon"></i>
+        <p><span class="multiple-select">WERE YOU PART OF AN AFTER-SCHOOL ACTIVITY IN HIGH SCHOOL?</span></p>
+        <!-- Yes / No -->
+        <div class="ui selection dropdown">
+          <input type="hidden" name="lc">
+          <i class="dropdown icon"></i>
+          <div class="default text">Select One</div>
+          <div class="menu">
+            <div class="item" data-value="Yes">Yes</div>
+            <div class="item" data-value="No">No</div>
           </div>
         </div>
       </div>
-      <!-- Question three -->
+      <!-- Question TWO -->
       <div class="field">
-        <label>LIST UP TO FIVE JOBS IN YOUR INDUSTRY YOU HAVE AN INTEREST IN PURSUING</label>
-        <textarea></textarea>
+        <label>HOW MANY ON/OFF-CAMPUS CAREER-ORIENTED PROJECTS, VOLUNTEER SERVICE, SPORTS TEAMS, ETC ORGANIZATIONS ARE YOU A PART OF AT YOUR UNIVERISTY?</label>
+        <input name="nc" type="text">
+      </div>
+      <!-- Question THREE -->
+      <div class="field">
+        <p><span class="multiple-select">I PLAN ON BECOMMING PART OF MORE ON-CAMPUS, COMMUNITY, OR CAREER RELATED CLUBS / ORGANIZATIONS AT MY UNIVERSITY</span></p>
+        <!-- Yes / No -->
+        <div class="ui selection dropdown">
+          <input type="hidden" name="lc">
+          <i class="dropdown icon"></i>
+          <div class="default text">Select One</div>
+          <div class="menu">
+            <div class="item" data-value="Yes">Yes</div>
+            <div class="item" data-value="No">No</div>
+          </div>
+        </div>
       </div>
       <!-- Question FOUR -->
       <div class="field">
-        <label>LIST THE TOP THREE STRENGTHS YOU BELIEVE YOU POSSES THAT WILL HELP YOU BE SUCCESSFUL IN YOUR CAREER</label>
-        <textarea></textarea>
-      </div>
-      <!-- Question FIVE -->
-      <div class="field">
-        <label>LIST THE TOP THREE WEAKNESS YOU BELIEVE YOU POSSES THAT WILL HURT YOU IN YOUR CAREER</label>
-        <textarea></textarea>
-      </div>
-      <!-- Question SIX -->
-      <div class="field">
-        <label>IF YOU COULD HAVE DINNER WITH SOMEONE FROM YOUR INDUSTRY, DEAD OR ALIVE, WHO WOULD IT BE AND WHY?</label>
-        <textarea></textarea>
+        <p><span class="multiple-select">WHAT TYPE OF CLUB/ORGANIZATION INTERESTS YOU, CHOOSE 3</span></p>
+          <!-- Passion, Monetery Value, Familial Obligation, Familial Motivation, Other -->
+          <select name="nf" multiple="" class="ui fluid dropdown">
+            <option value="">Select 3</option>
+            <option value="Academic">Academic</option>
+            <option value="Com Serv">Community Service</option>
+            <option value="Cultural">Cultural & Identity</option>
+            <option value="Environmental">Environmental</option>
+            <option value="Governance">Governance</option>
+            <option value="Performing">Performing & Visual Arts</option>
+            <option value="Politics">Politics & Activism</option>
+            <option value="Media">Publications & Media</option>
+            <option value="Sports">Recreation & Sports</option>
+            <option value="Religious">Religious & Spiritual Groups</option>
+            <option value="Social">Social & Special Interest</option>
+          </select>
       </div>
     </form>
   </div>
   <div class="ui four column centered grid">
     <button class="ui primary button next">
-        <a href="network_a.html">NEXT</a>
+        <a href="thank-you.html">NEXT</a>
     </button>
+
+    <script type="text/javascript" rel="script" src="assets/js/main.js"></script>
   </div>
 </div>
+
 
 </body>
 </html>

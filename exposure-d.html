@@ -62,46 +62,40 @@
 
 <div class="ui container center">
   <h2>
-    NETWORKING
+    EXPOSURE
   </h2>
   <div class="ui eight column centered grid">
     <form class="ui form">
       <!-- Question one -->
       <div class="field">
-        <p><span class="multiple-select">IT IS IMPORTANT TO BEGIN NETWORKING EARLY IN MY COLLEGE CAREER</span></p>
+        <p><span class="multiple-select">IT IS IMPORTANT TO BE OPEN TO DIVERSITY IN ORDER TO SUCCEED AS AN INDIVIDUAL AND PROFESSIONALY</span></p>
         <!-- Scale of 1-5 -->
-        <div class="ui equal width center aligned padded grid selection">
-          <div class="ui dropdown">
-            <div class="text"></div>
-            <i class="dropdown icon"></i>
+        <div class="ui selection dropdown">
+          <input type="hidden" name="ha">
+          <i class="dropdown icon"></i>
+          <div class="default text">Select One</div>
+          <div class="menu">
+            <div class="item" data-value="4">5 - Most Important</div>
+            <div class="item" data-value="3">4</div>
+            <div class="item" data-value="2">3</div>
+            <div class="item" data-value="1">2</div>
+            <div class="item" data-value="0">1 - Not important at all</div>
           </div>
         </div>
       </div>
       <!-- Question two -->
       <div class="field">
-        <p><span class="multiple-select">NETWORKING IS ESSENTIAL TO MY CAREER GROWTH AND PROFESSIONAL DEVELOPMENT</span></p>
-        <!-- Scale of 1-5 -->
-        <div class="ui equal width center aligned padded grid selection">
-          <div class="ui dropdown">
-            <div class="text"></div>
-            <i class="dropdown icon"></i>
-          </div>
-        </div>
-      </div>
-      <!-- Question THREE -->
-      <div class="field">
-        <label>DO YOU FEEL COMFORTABLE NETOWRKING WITH A PROFESSIONAL?</label>
-        <button class="ui secondary button" type="button" name="yes-button">Yes</button>
-        <button class="ui secondary button" type="button" name="no-button">NO</button>
-      </div>
-      <!-- Question FOUR -->
-      <div class="field">
-        <p><span class="multiple-select">WHAT TYPES OF NETWORKING EVENTS HAVE YOU ATTENDED?</span></p>
-        <!-- Professional Conferences, Industry Specific Speaking Engagements, Roundtable Events, LinkedIn/Online groups, Meetup.com Events, Career Fairs, Other, None of the above -->
-        <div class="ui equal width center aligned padded grid selection">
-          <div class="ui dropdown">
-            <div class="text"></div>
-            <i class="dropdown icon"></i>
+        <p><span class="multiple-select">I AM INTERESTED IN PARTICIPATING IN THE FOLLOWING DURING MY COLLEGE EXPERIENCE</span></p>
+        <!-- Study abroad, active service trip, both, neither -->
+        <div class="ui selection dropdown">
+          <input type="hidden" name="hb">
+          <i class="dropdown icon"></i>
+          <div class="default text">Select One</div>
+          <div class="menu">
+            <div class="item" data-value="3">Study Abroad</div>
+            <div class="item" data-value="2">Active Service Trip</div>
+            <div class="item" data-value="1">Both</div>
+            <div class="item" data-value="0">Neither</div>
           </div>
         </div>
       </div>
@@ -109,10 +103,12 @@
   </div>
   <div class="ui four column centered grid">
     <button class="ui primary button next">
-        <a href="involvement_a.html">NEXT</a>
+        <a href="internships-a.html">NEXT</a>
     </button>
   </div>
 </div>
+
+<script type="text/javascript" rel="script" src="assets/js/main.js"></script>
 
 </body>
 </html>

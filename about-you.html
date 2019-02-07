@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha256-9mbkOfVho3ZPXfM7W8sV2SndrGDuh7wuyLjtsWeTI1Q=" crossorigin="anonymous" />    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/mentorship-a.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/about-you.css" type="text/css">
     <!-- Start of Async Drift Code -->
     <script>
         "use strict";
@@ -61,26 +61,75 @@
     </div>
 </div>
 
-<div class="content-wrapper">
-    <div class="ui grid">
-        <div class="eight wide column center">
-          <h2>MENTORSHIP</h2>
-            <p>
-              Mentors play an important role in helping you learn about your and make decisions about your future.
-            </p>
-            <form class="ui form">
-              <!-- Question one -->
-              <div class="field">
-                <label>WAS THIS UNIVERSITY YOUR FIRST CHOICE?</label>
-                <button class="ui secondary button" type="button" name="yes-button"><a href="mentorship_d.html">YES</a></button>
-                <button class="ui secondary button" type="button" name="no-button"><a href="mentorship_d.html">NO</a></button>
-              </div>
-        </div>
-        <div class="eight wide column center">
-            <img src="assets\img\Mentor.png" alt="">
+<div class="hero">
+    <div class="content-wrapper">
+        <div class="ui grid">
+            <div class="eight wide column center">
+                <h1>TELL US ABOUT YOURSELF</h1>
+            </div>
+            <div class="eight wide column center">
+                <h1>STEP #1</h1>
+            </div>
         </div>
     </div>
 </div>
+
+<div class="content-wrapper">
+    <div class="ui grid">
+        <div class="eight wide column center">
+            <div class="ui form">
+                <div class="field">
+                    <div class="two fields">
+                        <div class="field">
+                            <input name="aa" type="text" placeholder="FIRST NAME">
+                        </div>
+                        <div class="field">
+                            <input name="ab" type="text" placeholder="LAST NAME">
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui selection dropdown">
+                        <input name="ac" type="hidden" name="gender">
+                        <i class="dropdown icon"></i>
+                        <div class="default text">GENDER</div>
+                        <div class="menu">
+                            <div class="item" data-value="1">Male</div>
+                            <div class="item" data-value="0">Female</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <input name="ad" type="text" placeholder="EMAIL ADDRESS">
+                </div>
+                <div class="field">
+                    <div class="two fields">
+                        <div class="field">
+                            <input name="ae" type="text" placeholder="CURRENT MAJOR">
+                        </div>
+                        <div class="field">
+                            <input name="af" type="text" placeholder="CURRENT MINOR">
+                        </div>
+                    </div>
+                </div>
+                <div class="field">
+                    <input name="ag" type="text" placeholder="CURRENT GRADE">
+                </div>
+                <div class="field">
+                    <input name="ah" type="text" placeholder="ANTICIPATED GRADUATION DATE">
+                </div>
+            </div>
+        </div>
+        <div class="eight wide column center">
+            <div class="row">
+                <button id="aboutButton" class="ui primary button">
+                    <a href="career-path.html">NEXT SECTION</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <script type="text/javascript" rel="script" src="assets/js/main.js"></script>
 </body>

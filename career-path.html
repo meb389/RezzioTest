@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha256-9mbkOfVho3ZPXfM7W8sV2SndrGDuh7wuyLjtsWeTI1Q=" crossorigin="anonymous" />    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/mentorship-a.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/career-path.css" type="text/css">
     <!-- Start of Async Drift Code -->
     <script>
         "use strict";
@@ -41,7 +41,6 @@
     </script>
     <!-- End of Async Drift Code -->
 </head>
-
 <body>
 <div class="ui secondary pointing menu">
     <a class="item">
@@ -61,23 +60,39 @@
     </div>
 </div>
 
-<div class="content-wrapper">
-    <div class="ui grid">
-        <div class="eight wide column center">
-          <h2>INTERNSHIPS</h2>
-            <p>
-              We want to learn more about your experience with internships and co-ops.
-            </p>
-            <form class="ui form">
-              <!-- Question one -->
-              <div class="field">
-                <label>HAVE YOU HAD ANY INTERNSHIPS?</label>
-                <button class="ui secondary button" type="button" name="yes-button"><a href="internships_d.html">YES</a></button>
-                <button class="ui secondary button" type="button" name="no-button"><a href="internships_d.html">NO</a></button>
-              </div>
+<div class="hero">
+    <div class="content-wrapper">
+        <div class="ui grid">
+            <div class="eight wide column center">
+                <h1>CHOOSE YOUR PATH</h1>
+            </div>
+            <div class="eight wide column center">
+                <h1>STEP #2</h1>
+            </div>
         </div>
-        <div class="eight wide column center">
-            <img src="assets\img\internship-blog-post-image@2x.png" alt="">
+    </div>
+</div>
+
+<div class="content-wrapper center">
+    <div class="ui grid">
+        <div class="row">
+          <p>CHOOSE 3 POTENTIAL CAREER PATHS</p>
+          <select name="ba" multiple="" class="ui fluid dropdown">
+            <option value="">Select 3</option>
+            <option value="Entrepreneurship">Entrepreneurship</option>
+            <option value="Gap">Gap Year</option>
+            <option value="Masters">Masters / Doctorate</option>
+            <option value="Law">Law School</option>
+            <option value="PHD">PHD</option>
+            <option value="Military">Military</option>
+            <option value="Med">Medical School</option>
+            <option value="Corp">Corporate America</option>
+          </select>
+        </div>
+        <div class="row">
+            <button id="careerButton" class="ui primary button">
+                <a href="questionnare.html">NEXT SECTION</a>
+            </button>
         </div>
     </div>
 </div>

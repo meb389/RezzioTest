@@ -80,3 +80,7 @@ hr{
     border: .5px solid gray;
     text-align: center;
 }
+
+#aboutButton{
+    margin-top: 150px;
+}

@@ -62,55 +62,58 @@
 
 <div class="ui container center">
   <h2>
-    INVOLVEMENT
+    INTERNSHIPS
   </h2>
   <div class="ui eight column centered grid">
     <form class="ui form">
       <!-- Question one -->
       <div class="field">
-        <label>WERE YOU PART OF AN AFTER-SCHOOL ACTIVITY IN HIGH SCHOOL?</label>
-        <button class="ui secondary button" type="button" name="yes-button">Yes</button>
-        <button class="ui secondary button" type="button" name="no-button">NO</button>
+        <label>WHAT IS YOUR PROFESSION OF CHOICE?</label>
+        <input name="ja" type="text">
       </div>
-      <!-- Question TWO -->
+      <!-- Question two -->
       <div class="field">
-        <label>HOW MANY ON/OFF-CAMPUS CAREER-ORIENTED PROJECTS, VOLUNTEER SERVICE, SPORTS TEAMS, ETC ORGANIZATIONS ARE YOU A PART OF AT YOUR UNIVERISTY?</label>
-        <input type="text">
+        <p><span class="multiple-select">WHY DID YOU CHOOSE THE INDUSTRY MENTIONED ABOVE?</span></p>
+          <!-- Passion, Monetery Value, Familial Obligation, Familial Motivation, Other -->
+          <select name="jb" multiple="" class="ui fluid dropdown">
+            <option value="">Select All That Apply</option>
+            <option value="Passion">Passion</option>
+            <option value="Money">Monetary Value</option>
+            <option value="Obligation">Familial Obligation</option>
+            <option value="Motivation">Familial Motivation</option>
+            <option value="Other">Other</option>
+          </select>
       </div>
-      <!-- Question THREE -->
+      <!-- Question three -->
       <div class="field">
-        <label>I PLAN ON BECOMING PART OF MORE ON-CAMPUS, COMMUNITY, OR CAREER-RELATED CLUBS/ORGANIZATION AT MY UNIVERISTY?</label>
-        <button class="ui secondary button" type="button" name="yes-button">Yes</button>
-        <button class="ui secondary button" type="button" name="no-button">NO</button>
+        <label>LIST UP TO FIVE JOBS IN YOUR INDUSTRY YOU HAVE AN INTEREST IN PURSUING</label>
+        <textarea name="jc"></textarea>
       </div>
       <!-- Question FOUR -->
       <div class="field">
-        <p><span class="multiple-select">WHAT TYPE OF CLUB/ORGANIZATION INTERESTS YOU, CHOOSE ONE FROM EACH MENU</span></p>
-          <!-- Passion, Monetery Value, Familial Obligation, Familial Motivation, Other -->
-        <div class="ui equal width center aligned padded grid selection">
-          <div class="ui dropdown">
-            <div class="text"></div>
-            <i class="dropdown icon"></i>
-          </div>
-          <div class="ui dropdown">
-            <div class="text"></div>
-            <i class="dropdown icon"></i>
-          </div>
-          <div class="ui dropdown">
-            <div class="text"></div>
-            <i class="dropdown icon"></i>
-          </div>
-        </div>
+        <label>LIST THE TOP THREE STRENGTHS YOU BELIEVE YOU POSSES THAT WILL HELP YOU BE SUCCESSFUL IN YOUR CAREER</label>
+        <textarea name="jd"></textarea>
+      </div>
+      <!-- Question FIVE -->
+      <div class="field">
+        <label>LIST THE TOP THREE WEAKNESS YOU BELIEVE YOU POSSES THAT WILL HURT YOU IN YOUR CAREER</label>
+        <textarea name="je"></textarea>
+      </div>
+      <!-- Question SIX -->
+      <div class="field">
+        <label>IF YOU COULD HAVE DINNER WITH SOMEONE FROM YOUR INDUSTRY, DEAD OR ALIVE, WHO WOULD IT BE AND WHY?</label>
+        <textarea name="jf"></textarea>
       </div>
     </form>
   </div>
   <div class="ui four column centered grid">
     <button class="ui primary button next">
-        <a href="career_awareness.html">NEXT</a>
+        <a href="networking-a.html">NEXT</a>
     </button>
+
+    <script type="text/javascript" rel="script" src="assets/js/main.js"></script>
   </div>
 </div>
-
 
 </body>
 </html>
