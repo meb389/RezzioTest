@@ -62,54 +62,50 @@
 
 <div class="ui container center">
   <h2>
-    INTERNSHIPS
+    AWARENESS
   </h2>
   <div class="ui eight column centered grid">
     <form class="ui form">
       <!-- Question one -->
       <div class="field">
-        <label>WHAT IS YOUR PROFESSION OF CHOICE?</label>
-        <input type="text">
+        <label>TELL US ABOUT YOUR MENTORSHIP EXPERIENCES TO DATE</label>
+        <textarea name="fa"></textarea>
       </div>
       <!-- Question two -->
       <div class="field">
-        <p><span class="multiple-select">WHY DID YOU CHOOSE THE INDUSTRY MENTIONED ABOVE?</span></p>
-          <!-- Passion, Monetery Value, Familial Obligation, Familial Motivation, Other -->
-        <div class="ui equal width center aligned padded grid selection">
-          <div class="ui dropdown">
-            <div class="text"></div>
-            <i class="dropdown icon"></i>
+        <p><span class="multiple-select">HOW IMPORTANT DO YOU THINK IT IS TO HAVE A MENTOR?</span></p>
+        <!-- Scale of 1-5 -->
+        <div class="ui selection dropdown">
+          <input type="hidden" name="fb">
+          <i class="dropdown icon"></i>
+          <div class="default text">Select One</div>
+          <div class="menu">
+            <div class="item" data-value="4">5 - Most Important</div>
+            <div class="item" data-value="3">4</div>
+            <div class="item" data-value="2">3</div>
+            <div class="item" data-value="1">2</div>
+            <div class="item" data-value="0">1 - Not important at all</div>
           </div>
         </div>
       </div>
       <!-- Question three -->
       <div class="field">
-        <label>LIST UP TO FIVE JOBS IN YOUR INDUSTRY YOU HAVE AN INTEREST IN PURSUING</label>
-        <textarea></textarea>
+        <label>IN YOUR OPINION DESCRIBE THE QUALITIES A GOOD MENTOR POSSESSES</label>
+        <textarea name="fc"></textarea>
       </div>
-      <!-- Question FOUR -->
       <div class="field">
-        <label>LIST THE TOP THREE STRENGTHS YOU BELIEVE YOU POSSES THAT WILL HELP YOU BE SUCCESSFUL IN YOUR CAREER</label>
-        <textarea></textarea>
-      </div>
-      <!-- Question FIVE -->
-      <div class="field">
-        <label>LIST THE TOP THREE WEAKNESS YOU BELIEVE YOU POSSES THAT WILL HURT YOU IN YOUR CAREER</label>
-        <textarea></textarea>
-      </div>
-      <!-- Question SIX -->
-      <div class="field">
-        <label>IF YOU COULD HAVE DINNER WITH SOMEONE FROM YOUR INDUSTRY, DEAD OR ALIVE, WHO WOULD IT BE AND WHY?</label>
-        <textarea></textarea>
+        <label>HOW MANY MENTORS DO YOU PLAN ON HAVING BEFORE YOU GRADUATE?</label>
+        <input name="fd" type="text">
       </div>
     </form>
   </div>
   <div class="ui four column centered grid">
     <button class="ui primary button next">
-        <a href="network_a.html">NEXT</a>
+        <a href="exposure-a.html">NEXT</a>
     </button>
   </div>
 </div>
 
+<script type="text/javascript" rel="script" src="assets/js/main.js"></script>
 </body>
 </html>

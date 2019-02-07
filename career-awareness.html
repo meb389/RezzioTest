@@ -8,7 +8,8 @@
   <link rel="icon" href="http://example.com/favicon.png">
   <title>REZZIO</title>
   <script src="lib/jquery-3.3.1.min.js" type="text/javascript" rel="script"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha256-9mbkOfVho3ZPXfM7W8sV2SndrGDuh7wuyLjtsWeTI1Q=" crossorigin="anonymous" />    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha256-9mbkOfVho3ZPXfM7W8sV2SndrGDuh7wuyLjtsWeTI1Q=" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/main.css" type="text/css">
   <link rel="stylesheet" href="assets/css/question_set_one.css" type="text/css">
   <!-- Start of Async Drift Code -->
@@ -62,54 +63,33 @@
 
 <div class="ui container center">
   <h2>
-    INTERNSHIPS
+    CAREER AWARENESS
   </h2>
   <div class="ui eight column centered grid">
     <form class="ui form">
-      <!-- Question one -->
       <div class="field">
-        <label>WHAT IS YOUR PROFESSION OF CHOICE?</label>
-        <input type="text">
+        <label>HAVE YOU TAKEN SPECIFIC STEPS TOWARDS PREPARING FOR YOUR CAREER?</label>
+        <button class="ui secondary button" type="button" name="da">Yes</button>
+        <button class="ui secondary button" type="button" name="db">no</button>
       </div>
-      <!-- Question two -->
+      <div class="row">
+        <p>WHICH OF THE FOLLOWING HAVE YOU STARTED?</p>
+        <select name="dc" multiple="" class="ui fluid dropdown">
+          <option value="">Select All That Apply</option>
+          <option value="angular">Cover Letter</option>
+          <option value="css">CV</option>
+          <option value="design">LinkedIn</option>
+          <option value="design">Resume</option>
+        </select>
+      </div>
       <div class="field">
-        <p><span class="multiple-select">WHY DID YOU CHOOSE THE INDUSTRY MENTIONED ABOVE?</span></p>
-          <!-- Passion, Monetery Value, Familial Obligation, Familial Motivation, Other -->
-        <div class="ui equal width center aligned padded grid selection">
-          <div class="ui dropdown">
-            <div class="text"></div>
-            <i class="dropdown icon"></i>
-          </div>
-        </div>
+        <label>LIST THE TOP THREE SKILLS YOU BELIEVE YOU REQUIRE TO BE SUCCESSFUL</label>
+        <input type=text name="dd">
       </div>
-      <!-- Question three -->
-      <div class="field">
-        <label>LIST UP TO FIVE JOBS IN YOUR INDUSTRY YOU HAVE AN INTEREST IN PURSUING</label>
-        <textarea></textarea>
-      </div>
-      <!-- Question FOUR -->
-      <div class="field">
-        <label>LIST THE TOP THREE STRENGTHS YOU BELIEVE YOU POSSES THAT WILL HELP YOU BE SUCCESSFUL IN YOUR CAREER</label>
-        <textarea></textarea>
-      </div>
-      <!-- Question FIVE -->
-      <div class="field">
-        <label>LIST THE TOP THREE WEAKNESS YOU BELIEVE YOU POSSES THAT WILL HURT YOU IN YOUR CAREER</label>
-        <textarea></textarea>
-      </div>
-      <!-- Question SIX -->
-      <div class="field">
-        <label>IF YOU COULD HAVE DINNER WITH SOMEONE FROM YOUR INDUSTRY, DEAD OR ALIVE, WHO WOULD IT BE AND WHY?</label>
-        <textarea></textarea>
-      </div>
-    </form>
-  </div>
-  <div class="ui four column centered grid">
-    <button class="ui primary button next">
-        <a href="network_a.html">NEXT</a>
-    </button>
-  </div>
-</div>
+      <button class="ui primary button next">
+          <a href="mentorship-a.html">NEXT</a>
+      </button>
 
-</body>
+      <script type="text/javascript" rel="script" src="assets/js/main.js"></script>
+  </body>
 </html>
