@@ -102,15 +102,23 @@
       </div>
       <!-- Question THREE -->
       <div class="field">
-        <label>DO YOU FEEL COMFORTABLE NETOWRKING WITH A PROFESSIONAL?</label>
-        <button class="ui secondary button" type="button" name="lc">Yes</button>
-        <button class="ui secondary button" type="button" name="ld">NO</button>
+        <p><span class="multiple-select">DO YOU FELL COMFORTABLE NETWORKING WITH A PROFESSIONAL?</span></p>
+        <!-- Scale of 1-5 -->
+        <div class="ui selection dropdown">
+          <input type="hidden" name="lc">
+          <i class="dropdown icon"></i>
+          <div class="default text">Select One</div>
+          <div class="menu">
+            <div class="item" data-value="Yes">Yes</div>
+            <div class="item" data-value="No">No</div>
+          </div>
+        </div>
       </div>
       <!-- Question FOUR -->
       <div class="field">
         <p><span class="multiple-select">WHAT TYPES OF NETWORKING EVENTS HAVE YOU ATTENDED?</span></p>
         <!-- Professional Conferences, Industry Specific Speaking Engagements, Roundtable Events, LinkedIn/Online groups, Meetup.com Events, Career Fairs, Other, None of the above -->
-        <select name="le" multiple="" class="ui fluid dropdown">
+        <select name="ld" multiple="" class="ui fluid dropdown">
           <option value="">Select All That Apply</option>
           <option value="Confernece">Professional Conferneces</option>
           <option value="Speaking">Industry Specific Speaking Engagements</option>

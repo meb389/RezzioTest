@@ -67,14 +67,22 @@
   </h2>
   <div class="ui eight column centered grid">
     <form class="ui form">
+      <!-- Question one -->
+      <p>HAVE YOU TAKEN STEPS TOWARDS PREPARING FOR YOUR CAREER?</p>
       <div class="field">
-        <label>HAVE YOU TAKEN SPECIFIC STEPS TOWARDS PREPARING FOR YOUR CAREER?</label>
-        <button class="ui secondary button" type="button" name="da">Yes</button>
-        <button class="ui secondary button" type="button" name="db">no</button>
+        <div class="ui selection dropdown">
+          <input type="hidden" name="da">
+          <i class="dropdown icon"></i>
+          <div class="default text">Yes / No</div>
+          <div class="menu">
+            <div class="item" data-value="Yes">Yes</div>
+            <div class="item" data-value="No">No</div>
+          </div>
+        </div>
       </div>
       <div class="row">
         <p>WHICH OF THE FOLLOWING HAVE YOU STARTED?</p>
-        <select name="dc" multiple="" class="ui fluid dropdown">
+        <select name="db" multiple="" class="ui fluid dropdown">
           <option value="">Select All That Apply</option>
           <option value="Cover">Cover Letter</option>
           <option value="CV">CV</option>
@@ -84,12 +92,15 @@
       </div>
       <div class="field">
         <label>LIST THE TOP THREE SKILLS YOU BELIEVE YOU REQUIRE TO BE SUCCESSFUL</label>
-        <input type=text name="dd">
+        <input type=text name="dc">
       </div>
+    </form>
+  </div>
+
       <button class="ui primary button next">
           <a href="mentorship-a.html">NEXT</a>
       </button>
-
+</div>
       <script type="text/javascript" rel="script" src="assets/js/main.js"></script>
   </body>
 </html>

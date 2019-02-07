@@ -68,9 +68,17 @@
     <form class="ui form">
       <!-- Question one -->
       <div class="field">
-        <label>WERE YOU PART OF AN AFTER-SCHOOL ACTIVITY IN HIGH SCHOOL?</label>
-        <button class="ui secondary button" type="button" name="na">Yes</button>
-        <button class="ui secondary button" type="button" name="nb">NO</button>
+        <p><span class="multiple-select">WERE YOU PART OF AN AFTER-SCHOOL ACTIVITY IN HIGH SCHOOL?</span></p>
+        <!-- Yes / No -->
+        <div class="ui selection dropdown">
+          <input type="hidden" name="lc">
+          <i class="dropdown icon"></i>
+          <div class="default text">Select One</div>
+          <div class="menu">
+            <div class="item" data-value="Yes">Yes</div>
+            <div class="item" data-value="No">No</div>
+          </div>
+        </div>
       </div>
       <!-- Question TWO -->
       <div class="field">
@@ -79,9 +87,17 @@
       </div>
       <!-- Question THREE -->
       <div class="field">
-        <label>I PLAN ON BECOMING PART OF MORE ON-CAMPUS, COMMUNITY, OR CAREER-RELATED CLUBS/ORGANIZATION AT MY UNIVERISTY?</label>
-        <button class="ui secondary button" type="button" name="nd">Yes</button>
-        <button class="ui secondary button" type="button" name="ne">NO</button>
+        <p><span class="multiple-select">I PLAN ON BECOMMING PART OF MORE ON-CAMPUS, COMMUNITY, OR CAREER RELATED CLUBS / ORGANIZATIONS AT MY UNIVERSITY</span></p>
+        <!-- Yes / No -->
+        <div class="ui selection dropdown">
+          <input type="hidden" name="lc">
+          <i class="dropdown icon"></i>
+          <div class="default text">Select One</div>
+          <div class="menu">
+            <div class="item" data-value="Yes">Yes</div>
+            <div class="item" data-value="No">No</div>
+          </div>
+        </div>
       </div>
       <!-- Question FOUR -->
       <div class="field">
